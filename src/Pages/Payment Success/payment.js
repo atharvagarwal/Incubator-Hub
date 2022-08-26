@@ -8,7 +8,7 @@ const {subscribed, changeSubscribed}=useContext(payContext)
     <div>
         <h3 className="heading-payment" style={{"color":"green","fontSize":"5rem","display":"flex","justifyContent":"center","marginTop":"5rem"}}>Successful Payment!</h3>
         {localStorage.setItem("subscribed", "true")}
-        
+        {window.location.href="/video"}
     </div>
   )
 }
